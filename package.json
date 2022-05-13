@@ -1,0 +1,27 @@
+{
+  "name": "petshop",
+  "version": "1.0.0",
+  "description": "CRUD",
+  "main": "app.js",
+  "scripts": {
+    "start":"nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guinaspolini/Desafio-Br-SoftMakers-DEV-Junior.git"
+  },
+  "author": "Guilherme Naspolini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guinaspolini/Desafio-Br-SoftMakers-DEV-Junior/issues"
+  },
+  "homepage": "https://github.com/guinaspolini/Desafio-Br-SoftMakers-DEV-Junior#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "mongoose": "^6.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
